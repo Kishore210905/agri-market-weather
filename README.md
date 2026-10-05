@@ -87,13 +87,4 @@ Real government market-price API, real weather API, farmer login, database, mult
 ## 17. Conclusion
 The project meets the assignment by giving farmers one place to see market prices and weather forecasts, and shows how real APIs can be added later.
 
-## Demo Guide for Faculty
-1. Show the Home dashboard and explain the architecture.
-2. Market page: search "onion", filter by category and market, show a "no data" search.
-3. Weather page: search Salem, then Thanjavur (rain advice), then an unknown place.
-4. Crops page: filter by season.
-5. Open `script.js` and point to the demo data arrays and the `advice()` function.
-6. State clearly that data is demo data.
 
-## Screenshots to Take
-Home (top and lower sections), Market table, Market filtered, Market "no data" message, Weather current + advice, Weather 5-day cards, Weather fallback message, Crops page, Crops filtered, About page, mobile view of Home and Market, VS Code folder structure.
