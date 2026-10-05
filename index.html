@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | AgriMarket &amp; Weather</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+<header id="site-header"></header>
+<main>
+<section class="hero">
+  <div class="wrap">
+    <h1>Know today&#39;s crop prices and weather before you decide.</h1>
+    <p>AgriMarket &amp; Weather puts mandi prices, forecasts and farming advice on one simple page.</p>
+    <div class="btns"><a class="btn" href="market.html">Check Market Prices</a> <a class="btn btn-alt" href="weather.html">View Weather</a></div>
+    <p class="small" id="now"></p>
+  </div>
+</section>
+<section class="wrap">
+  <div class="grid stats">
+    <div class="card"><b id="statCrops">0</b><span>Crops available</span></div>
+    <div class="card"><b id="statMarkets">0</b><span>Markets covered</span></div>
+    <div class="card"><b id="statTemp">--</b><span id="statCond">Current weather</span></div>
+  </div>
+  <h2>Today&#39;s highlighted prices <span class="tag">Demo Data</span></h2>
+  <div class="grid" id="featured"></div>
+  <h2>Weather summary <span class="tag">Demo Weather Data</span></h2>
+  <div class="card" id="homeWeather"></div>
+  <h2>Features</h2>
+  <div class="grid">
+    <div class="card"><h3>&#128200; Market prices</h3><p>Search by crop, category and market. See min, max and modal price with trend.</p></div>
+    <div class="card"><h3>&#9925; Weather forecast</h3><p>Current conditions, today&#39;s outlook and a 5-day forecast.</p></div>
+    <div class="card"><h3>&#127807; Farming advice</h3><p>Simple tips such as when to delay irrigation, based on the forecast.</p></div>
+    <div class="card"><h3>&#127806; Crop guide</h3><p>Season, water, soil and temperature needs for common crops.</p></div>
+  </div>
+</section>
+</main>
+<footer id="site-footer"></footer>
+<script src="script.js"></script>
+</body>
+</html>
